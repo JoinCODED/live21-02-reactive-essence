@@ -11,40 +11,19 @@ export const AppWrapper = styled.div`
   color: white;
 `;
 
-export const Wrapper = styled.div`
+export const InputWrapper = styled.div`
   display: flex;
   align-items: center;
-
-  width: 500px;
-  height: 80px;
-  border-radius: 300px;
-  padding: 0px 25px;
-  margin-bottom: 25px;
-
-  cursor: pointer;
-  user-select: none;
-
-  background-color: rgba(0, 0, 0, 0.4);
-
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
 `;
 
-export const Emoji = styled.span`
-  margin-right: 20px;
-  font-size: 1.6em;
+export const InputIcon = styled.label`
+  font-size: 2em;
 `;
 
-export const Name = styled.span`
-  flex-grow: 1;
-  font-size: 1.6em;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.9); ;
-`;
-
-export const GoToGithub = styled.span`
-  font-size: 0.8em;
-  user-select: none;
-  color: rgba(255, 255, 255, 0.3);
+export const Input = styled.input`
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 3px;
 `;
